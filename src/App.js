@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { useState } from 'react'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>{counter}</h1>
-      <h4>{counter}</h4>
+      <h4>The current count is {counter}</h4>
     </div>
 
   )
